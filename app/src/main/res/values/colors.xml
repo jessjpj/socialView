@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Same color part -->
+    <color name="bottom_navigation_active_color">#32C6B0</color>
+
+    <color name="grey_light_3">#2232C6B0</color>
+    <color name="grey_light_4">#3332C6B0</color>
+    <!-- Same color part -->
+    <color name="standard_green">#62D26F</color>
+
+    <color name="standard_green_10">#1A62D26F</color>
+    <color name="standard_green_15">#2662D26F</color>
+
+    <!-- Same color part-->
+    <color name="green_1">#16CA9C</color>
+
+    <color name="green_1_20">#3316CA9C</color>
+    <color name="green_1_50">#8016CA9C</color>
+
+    <!-- Same color part-->
+    <color name="orange">#FFA150</color>
+    <color name="orange_light">#44FFA150</color>
+    <color name="orange_10">#1AFFA150</color>
+
+    <!-- Same color part-->
+    <color name="edit_text_bottom_line">#C8C7CC</color>
+    <color name="newAnnouncementUnderline">#33C8C7CC</color>
+
+    <!-- Same color part -->
+    <color name="red">#F45147</color>
+    <color name="red_10">#1AF45147</color>
+
+
+    <color name="colorPrimary">#32C6B0</color>
+
+    <color name="violet_light">#1A6200EE</color>
+
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="brand_light">#F5F9FA</color>
+
+    <color name="gull_gray">#93A5B1</color>
+    <color name="gull_gray_10">#1A93A5B1</color>
+    <color name="gull_gray_12">#1C93A5B1</color>
+
+    <color name="brand_dark">#284B64</color>
+    <color name="brand_dark_60">#99284B64</color>
+    <color name="brand_dark_30">#4D284B64</color>
+
+    <color name="standard_blue">#4EB1F9</color>
+    <color name="standard_blue_10">#1A4EB1F9</color>
+
+    <color name="pink">#FF8BCD</color>
+    <color name="pink_10">#1AFF8BCD</color>
+
+
+    <color name="blue_light">#1A4EB1F9</color>
+
+    <color name="brand_secondary">#5D728C</color>
+
+    <color name="purple">#D669FE</color>
+    <color name="purple_10">#1AD669FE</color>
+
+    <color name="gray">#A7B5BF</color>
+
+    <color name="grey_light_6">#D4DBE0</color>
+    <color name="gray_700">#688192</color>
+
+    <color name="orange_dark">#FF453A</color>
+
+    <color name="Gray_300">#BEC9D0</color>
+
+
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="standard_cyan">#11BBD1</color>
+
+    <color name="standard_cyan_10">#1A11BBD1</color>
+
+
+
+    <color name="black_20">#33000000</color>
+
+    <color name="muted">#7E93A2</color>
+
+    <color name="popUpTransparentBackground">#55000000</color>
+
+    <color name="light_gray">#D3D3D3</color>
+
+    <color name="black">#FF000000</color>
+    <color name="java">#11BBD1</color>
+    <color name="java_15">#3311BBD1</color>
+    <color name="mountain_meadow">#16CA9C</color>
+    <color name="standard_indigo_15">#338479FF</color>
+    <color name="mountain_meadow_15">#3316CA9C</color>
+    <color name="standard_indigo">#8479FF</color>
+    <color name="standard_indigo_10">#1A8479FF</color>
+    <color name="brand_primary">#1A938A</color>
+    <color name="brand_primary_10">#1A1A938A</color>
+    <color name="emerald">#4032D74B</color>
+    <color name="porcelain">#E9EDEF</color>
+
+
+
+
+    <color name="grey_shade">#994E4E4E</color>
+    <color name="prussian_blue">#003448</color>
+    <color name="ottoman">#E7F8E9</color>
+    <color name="serenade">#FFF1E5</color>
+    <color name="cinderella">#FEE5E3</color>
+    <color name="palm_primary">#E8F4F3</color>
+    <color name="white_5">#0D000000</color>
+    <color name="white_85">#00000000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="standard_yellow">#FFC43D</color>
+    <color name="indigo">#4B0082</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="neutral">#EDEEF2</color>
+    <color name="black_10">#0A000000</color>
+
+    <color name="surface_light">#F4F6F7</color>
+
+
+</resources>

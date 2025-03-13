@@ -1,0 +1,8 @@
+<resources>
+    <!-- Font paths -->
+    <string name="custom_font_path_regular" translatable="false">SFProText-Regular.ttf</string>
+    <string name="custom_font_path_bold" translatable="false">SFProText-Bold.ttf</string>
+    <string name="custom_font_path_display" translatable="false">SFProDisplay-Regular.ttf</string>
+    <string name="custom_font_path_display_bold" translatable="false">SFProDisplay-Bold.ttf</string>
+    <string name="custom_font_path_semi_bold" translatable="false">SFProText-Semibold.ttf</string>
+</resources>

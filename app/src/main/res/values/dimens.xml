@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="general_button_text_size">17sp</dimen>
+
+    <dimen name="intro_image_dimen">350dp</dimen>
+    <dimen name="intro_title_margin_top">30dp</dimen>
+    <dimen name="intro_title_text_size">22sp</dimen>
+    <dimen name="intro_text_margin_horizontal">30dp</dimen>
+    <dimen name="intro_text_margin_top">15dp</dimen>
+    <dimen name="intro_text_text_size">15sp</dimen>
+    <dimen name="intro_tab_margin_top">32dp</dimen>
+    <dimen name="intro_button_skip_margin_top">32dp</dimen>
+    <dimen name="intro_button_skip_text_size">13sp</dimen>
+    <dimen name="intro_button_continue_margin">30dp</dimen>
+    <dimen name="intro_button_language_padding">10dp</dimen>
+    <dimen name="intro_button_margin">5dp</dimen>
+    <dimen name="intro_button_language_icon_dimension">24dp</dimen>
+    <dimen name="intro_button_language_height">50dp</dimen>
+    <dimen name="intro_button_language_text_margin_start">50dp</dimen>
+
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">10sp</dimen>
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">10sp</dimen>
+    <dimen name="design_bottom_navigation_icon_size" tools:override="true">20dp</dimen>
+    <dimen name="fragments_title_top_margin">47dp</dimen>
+    <dimen name="fragments_title_left_margin">16dp</dimen>
+    <dimen name="fragment_title_text_size">34sp</dimen>
+
+    <!-- Activity -->
+    <dimen name="activity_global_margin">15dp</dimen>
+    <dimen name="activity_top_background_size">107dp</dimen>
+    <dimen name="activity_top_main_info_container_size">50dp</dimen>
+    <dimen name="activity_global_top_margin">10dp</dimen>
+
+    <!-- LogIn -->
+    <dimen name="login_global_margin">30dp</dimen>
+    <dimen name="custom_edit_text_height">45dp</dimen>
+    <dimen name="login_custom_edit_top_margin">135dp</dimen>
+    <dimen name="login_tv_button_margin">30dp</dimen>
+    <dimen name="login_tv_margin">20dp</dimen>
+    <dimen name="login_title_text_size">22sp</dimen>
+    <dimen name="login_text_size">15sp</dimen>
+    <dimen name="login_mail_margin_top">70dp</dimen>
+    <dimen name="login_tv_global_margin">10dp</dimen>
+
+    <!-- AddNew -->
+    <dimen name="add_new_margin">15dp</dimen>
+    <dimen name="add_new_margin1">30dp</dimen>
+    <dimen name="add_new_gradient_view_height">120dp</dimen>
+    <dimen name="add_new_tv_margin">20dp</dimen>
+    <dimen name="add_new_circle_margin">40dp</dimen>
+    <dimen name="add_new_title_text_size">22sp</dimen>
+    <dimen name="add_new_text_size">16sp</dimen>
+    <dimen name="add_new_sub_sub_title_size">12sp</dimen>
+    <dimen name="add_new_text_padding">40dp</dimen>
+    <dimen name="add_new_pager_margin">30dp</dimen>
+    <dimen name="add_new_item_height">50dp</dimen>
+    <dimen name="add_new_image_size">28dp</dimen>
+    <dimen name="add_new_item_margin">17dp</dimen>
+    <dimen name="add_new_item_margin_big">60dp</dimen>
+    <dimen name="add_new_item_title_text_size">17sp</dimen>
+    <dimen name="add_new_item_sub_title_text_size">20sp</dimen>
+    <dimen name="add_new_item_row_height">65dp</dimen>
+    <dimen name="add_new_item_row_edit_text_height">48dp</dimen>
+
+    <dimen name="small_image_general_dimen">25dp</dimen>
+    <dimen name="custom_calendar_top_bottom_margin">6dp</dimen>
+    <dimen name="mtrl_slider_widget_height">30dp</dimen>
+
+
+    <dimen name="large_margin">16dp</dimen>
+    <dimen name="x_medium_padding">12dp</dimen>
+    <dimen name="medium_padding">8dp</dimen>
+    <dimen name="medium_text">12sp</dimen>
+    <dimen name="extra_large_text">20sp</dimen>
+    <dimen name="extra_large_margin">20dp</dimen>
+    <dimen name="xx_large_margin">24dp</dimen>
+    <dimen name="xxx_large_margin">32dp</dimen>
+    <dimen name="xxxx_large_margin">40dp</dimen>
+    <dimen name="button_corner_radius">48dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="button_height_medium">50dp</dimen>
+    <dimen name="cart_qty_button_size">40dp</dimen>
+    <dimen name="x_small_margin">3dp</dimen>
+    <dimen name="small_margin">5dp</dimen>
+    <dimen name="tiny_font_size">10sp</dimen>
+
+    <dimen name="default_image_height">46dp</dimen>
+    <dimen name="default_text_size">18sp</dimen>
+    <dimen name="x_medium_margin">12dp</dimen>
+    <dimen name="medium_margin">8dp</dimen>
+    <dimen name="large_padding">16dp</dimen>
+
+    <dimen name="xx_small_icon">12dp</dimen>
+    <dimen name="extra_small_icon">20dp</dimen>
+    <dimen name="x_small_icon">16dp</dimen>
+    <dimen name="small_icon">24dp</dimen>
+    <dimen name="medium_icon">32dp</dimen>
+    <dimen name="large_icon">48dp</dimen>
+    <dimen name="extra_large_icon">72dp</dimen>
+    <dimen name="xx_large_icon">96dp</dimen>
+
+
+</resources>

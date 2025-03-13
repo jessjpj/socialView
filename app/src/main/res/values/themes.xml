@@ -1,0 +1,514 @@
+<resources>
+
+
+    <style name="Theme.SocialView" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/porcelain</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <!--    Fonts-->
+    <style name="fontBodySemibold">
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#284B64</item>
+        <item name="style">semibold</item>
+        <item name="font">@string/custom_font_path_semi_bold</item>
+    </style>
+
+    <style name="ThemeOverlay.App.MaterialCalendar" parent="@style/ThemeOverlay.MaterialComponents.TimePicker">
+        <item name="colorSurface">@color/white</item>
+    </style>
+
+    <style name="SelectionSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/brand_primary</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#42221f1f
+        </item>
+    </style>
+
+    <style name="ActiveSlideButtonTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/standard_green</item>
+        <item name="fontFamily">@font/sf_pro_text_regular</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+
+    <style name="fontSubheadlineRegular">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="lineHeight">20sp</item>
+        <item name="android:textColor">#99284B64</item>
+        <item name="style">regular</item>
+        <item name="font">@string/custom_font_path_regular</item>
+    </style>
+
+    <style name="fontTitle3Bold">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textColor">#284B64</item>
+        <item name="style">bold</item>
+        <item name="android:fontFamily">@font/sf_pro_display_bold</item>
+    </style>
+
+    <style name="fontTitle2Bold">
+        <item name="android:textSize">22sp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textColor">#284B64</item>
+        <item name="style">bold</item>
+        <item name="android:fontFamily">@font/sf_pro_display_bold</item>
+    </style>
+
+    <style name="fontBodyRegular">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#93A5B1</item>
+        <item name="style">regular</item>
+        <item name="font">@font/sf_pro_text_regular</item>
+    </style>
+
+    <style name="fontCaption2Semibold">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">#284B64</item>
+        <item name="style">semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <style name="fontHeadlineSemibold">
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">#5D728C</item>
+        <item name="style">semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <style name="fontFootnoteSemibold">
+        <item name="fontWeight">600</item>
+        <item name="android:textSize">13sp</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="style">semibold</item>
+        <item name="font">@font/sf_pro_text_semibold</item>
+    </style>
+
+
+    <!--Fonts END-->
+
+
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="activityUserTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textColor">#284B64</item>
+        <item name="style">bold</item>
+    </style>
+
+    <style name="activityTaskBar">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textColor">#284B64</item>
+        <item name="style">semibold</item>
+    </style>
+
+    <style name="activityApprovalsTask">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#284B64</item>
+        <item name="style">semibold</item>
+    </style>
+
+    <style name="newAnnouncement">
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textColor">#99284B64</item>
+        <item name="style">regular</item>
+    </style>
+
+    <style name="switchArabic">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textColor">#284B64</item>
+        <item name="style">regular</item>
+    </style>
+
+    <style name="activityTaskCounter">
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="style">@style/fontBodySemibold</item>
+    </style>
+
+    <style name="likesCounter">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#4D284B64</item>
+        <item name="style">regular</item>
+    </style>
+
+    <style name="activityBigItemInfoFrom">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#284B64</item>
+    </style>
+
+    <style name="activityBigItemInfoTime">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#99284B64</item>
+    </style>
+
+    <style name="activityBigItemInfoTitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#284B64</item>
+        <item name="style">semibold</item>
+    </style>
+
+    <style name="activityBigItemInfoText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#5D728C</item>
+    </style>
+
+    <style name="activityNotificationCounter">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="baseListTabText">
+        <item name="android:textSize">15sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="toolbarTitle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#284B64</item>
+        <item name="style">bold</item>
+    </style>
+
+    <style name="tasksSubtitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#93A5B1</item>
+    </style>
+
+    <style name="Activity.Dialog" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_dialog</item>
+    </style>
+
+    <style name="Activity_DialogAddNew">
+        <item name="android:windowIsFloating">true</item>
+        <item name="backgroundColor">@color/white</item>
+    </style>
+
+    <style name="app_dialog" parent="android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="Activity.Dialog.SlideHorizontal" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowEnterAnimation">@anim/in_from_right</item>
+        <item name="android:windowExitAnimation">@anim/out_to_left</item>
+    </style>
+
+    <style name="commentText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#5D728C</item>
+    </style>
+
+    <style name="commentTitle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#284B64</item>
+    </style>
+
+    <style name="activityInfoDialogFrom">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#284B64</item>
+    </style>
+
+    <style name="activityInfoDialogText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#284B64</item>
+    </style>
+
+    <style name="activityUserInitials">
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="commentsUserInitials">
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="notificationUserInitials">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.Material3.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/alert_dialog_border_radius</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#f00</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#00f</item>
+    </style>
+
+    <style name="MentionSuggestionName">
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="style">regular</item>
+    </style>
+
+    <style name="TaskListStatusStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/task_status_shape</item>
+    </style>
+
+    <style name="subtitleTaskListText">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.07</item>
+        <item name="android:textColor">#93A5B1</item>
+        <item name="style">regular</item>
+    </style>
+
+    <style name="assigneeOverloadTaskList">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.07</item>
+        <item name="android:textColor">#93A5B1</item>
+        <item name="android:gravity">center</item>
+        <item name="style">regular</item>
+    </style>
+
+    <style name="dueDateTaskListStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textColor">#93A5B1</item>
+        <item name="android:gravity">center</item>
+        <item name="style">regular</item>
+    </style>
+
+    <style name="newItemIcons">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.07</item>
+        <item name="android:textColor">#5D728C</item>
+        <item name="android:gravity">center</item>
+        <item name="style">semibold</item>
+    </style>
+
+
+    <style name="taskFilterTabButton" parent="Widget.Material3.Button">
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:paddingEnd">15dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:drawablePadding">5dp</item>
+    </style>
+
+    <style name="alert_messa">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:backgroundDimAmount">0.0</item>
+
+        <item name="colorOnPrimary">@color/green_1</item>
+
+    </style>
+
+    <style name="CustomProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:colorAccent">@color/green_1</item>
+    </style>
+
+
+    <style name="PageTitleText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">34sp</item>
+        <item name="lineHeight">40sp</item>
+        <item name="lineSpacing">0.36sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="fontFamily">@font/sf_pro_display_bold</item>
+    </style>
+
+    <style name="Heading1Text" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">28sp</item>
+        <item name="lineHeight">34sp</item>
+        <item name="lineSpacing">0.36sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold</item>
+    </style>
+
+    <style name="Heading2Text" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">22sp</item>
+        <item name="lineHeight">28sp</item>
+        <item name="lineSpacing">0.36sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold</item>
+    </style>
+
+    <style name="Heading3Text" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+        <item name="lineHeight">24sp</item>
+        <item name="lineSpacing">0.36sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold</item>
+    </style>
+
+    <style name="BodyText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="lineHeight">22sp</item>
+        <item name="lineSpacing">-0.4sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold</item>
+    </style>
+
+    <style name="SubHeading" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="lineHeight">20sp</item>
+        <item name="lineSpacing">0sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold</item>
+    </style>
+
+    <style name="FootNoteText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">16sp</item>
+        <item name="lineSpacing">0sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold</item>
+    </style>
+
+    <style name="captionText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">10sp</item>
+        <item name="lineHeight">12sp</item>
+        <item name="lineSpacing">0sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold</item>
+    </style>
+
+
+    <style name="weekDaysTextRegular" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="fontFamily">@font/sf_pro_text_regular</item>
+    </style>
+
+    <style name="datesDaysTextRegular" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/brand_dark</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold</item>
+    </style>
+
+    <style name="BottomDialogStyle" parent="Theme.Material3.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomCardViewAppearance">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">@dimen/extra_large_margin</item>
+        <item name="cornerSizeTopRight">@dimen/extra_large_margin</item>
+    </style>
+
+    <style name="ThemeOverlay.MyApp.ElevationOverlayDisabled" parent="">
+        <item name="elevationOverlayEnabled">false</item>
+    </style>
+
+    <style name="Widget.MyApp.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.MyApp.ElevationOverlayDisabled</item>
+    </style>
+
+    <style name="CustomCardView" parent="CardView">
+        <item name="shapeAppearanceOverlay">@style/CustomCardViewAppearance</item>
+    </style>
+
+    <style name="RoundButtonStyle" parent="Widget.Material3.Button">
+        <item name="fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:textSize">@dimen/general_button_text_size</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="textAllCaps">false</item>
+        <item name="cornerRadius">@dimen/xx_large_margin</item>
+
+
+    </style>
+
+    <style name="primaryTabLayout" parent="Widget.Material3.TabLayout">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TabLayout</item>
+    </style>
+
+    <style name="tabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="style">@style/BodyText</item>
+        <item name="textAllCaps">false</item>
+
+    </style>
+
+    <style name="ThemeOverlay.App.TabLayout" parent="">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnSurfaceVariant">@color/muted</item>
+    </style>
+
+
+</resources>
